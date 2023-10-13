@@ -16,28 +16,30 @@ const Footer = () => {
           alt="newletter-banner"
           className="w-1/2 hidden md:block"
         />
-        <div className="w-full px-8 py-12 md:w-1/2 md:px-6 lg:p-16 ">
-          <div className="flex items-center mb-2 lg:mb-6">
-            <div className="border-t border-yellow-600 w-7 mr-4"></div>
-            <div className="text-yellow-600 text-sm tracking-widest">
-              SUBSCRIBE TO OUR NEWSLETTER
+        <div className="shadow-2xl w-full md:w-1/2 ">
+          <div className="px-8 py-12 md:px-6 lg:p-16">
+            <div className="flex items-center mb-2 lg:mb-6">
+              <div className="border-t border-yellow-600 w-7 mr-4"></div>
+              <div className="text-yellow-600 text-sm tracking-widest">
+                SUBSCRIBE TO OUR NEWSLETTER
+              </div>
             </div>
-          </div>
-          <div className="mb-2.5 text-lg font-bold lg:text-3xl lg:font-semibold lg:leading-[44px] lg:mb-6">
-            See The Latest Collection & Get Special Offer
-          </div>
-          <div className="flex mb-3 flex-col sm:flex-row">
-            <input
-              type="email"
-              placeholder="Email address"
-              className="border border-black w-full my-2.5 mr-2 p-2 sm:px-2"
-            />
-            <button className="py-3.5 px-8 bg-yellow-500 tracking-[0.2rem] text-xs font-semibold my-2.5 sm:tracking-widest">
-              SUBSCRIBE
-            </button>
-          </div>
-          <div className="text-gray-500 text-sm">
-            Cras interdum lectus velit nibh senectus fringilla ut.
+            <div className="mb-2.5 text-lg font-bold lg:text-3xl lg:font-semibold lg:leading-[44px] lg:mb-6">
+              See The Latest Collection & Get Special Offer
+            </div>
+            <div className="flex mb-3 flex-col sm:flex-row">
+              <input
+                type="email"
+                placeholder="Email address"
+                className="border border-black w-full my-2.5 mr-2 p-2 sm:px-2"
+              />
+              <button className="py-3.5 px-8 bg-yellow-500 tracking-[0.2rem] text-xs font-semibold my-2.5 sm:tracking-widest">
+                SUBSCRIBE
+              </button>
+            </div>
+            <div className="text-gray-500 text-sm">
+              Cras interdum lectus velit nibh senectus fringilla ut.
+            </div>
           </div>
         </div>
       </div>
@@ -100,8 +102,10 @@ const Footer = () => {
 
         <hr />
         <div className="px-5 py-8 flex flex-col items-center sm:flex-row sm:justify-between">
-            <p className="mb-2.5 sm:mb-0">Copyright © 2023 Online Furniture Store</p>
-            <p>Powered By Online Furniture Store</p>
+          <p className="mb-2.5 sm:mb-0">
+            Copyright © 2023 Online Furniture Store
+          </p>
+          <p>Powered By Online Furniture Store</p>
         </div>
       </div>
     </div>

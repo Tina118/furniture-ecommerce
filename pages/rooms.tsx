@@ -1,18 +1,7 @@
-import React from "react";
-import Head from "next/head";
+import RoomsPage from "@/container/RoomsPage";
 
 const Rooms = () => {
-  return (
-    <>
-      <Head>
-        <title>Rooms - Online Furniture Store</title>
-        <meta name="description" content="Kayuu Online Furniture Store" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
-      </Head>
-      <div>Rooms</div>
-    </>
-  );
+  return <RoomsPage />;
 };
 
 export default Rooms;

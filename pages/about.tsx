@@ -12,7 +12,6 @@ const About = () => {
   const [products, setProducts] = useState<number>(500);
   const [stores, setStores] = useState<number>(0);
 
- 
   const observerCallback: IntersectionObserverCallback = (entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -74,9 +73,10 @@ const About = () => {
               About Us
             </div>
             <p className="text-gray-500 text-center sm:text-sm md:leading-7 lg:text-base">
-              Tempus amet, sit erat malesuada lorem purus dictum pretium,
-              posuere sagittis ultricies enim massa nisi neque augue in
-              condimentum diam commodo ornare.
+              Crafting comfort and elegance, we bring you thoughtfully designed
+              furniture that blends style, quality, and functionality. From
+              timeless classics to modern designs, we’re dedicated to
+              transforming your spaces into stunning sanctuaries.
             </p>
           </div>
         </div>
@@ -95,14 +95,12 @@ const About = () => {
                 className="mt-10 w-full md:mt-0"
               />
               <p className="mt-10 text-gray-500 text-base font-medium leading-7 mb-5">
-                Eu egestas felis et viverra amet dictum ornare turpis gravida
-                orci bibendum odio sit volutpat proin at enim ultrices dolor
-                nullam tortor ornare cursus nibh sit adipiscing adipiscing enim
-                erat nunc donec tellus, egestas commodo netus adipiscing
-                ultrices at phasellus ut vitae nunc malesuada id nec suspen
-                disse sit turpis mauris biben dum amet dignissim in sit duis
-                pharetra vehicula eget suspen disse at vitae integer gravida
-                sagittis.
+                At KAYUU, we believe that furniture is more than just decor;
+                it’s a reflection of your style, comfort, and personality. From
+                our carefully curated collections to our commitment to quality
+                craftsmanship, we aim to create pieces that enrich your home and
+                your life. With an eye for detail and a passion for innovation,
+                we’re here to help you design spaces that inspire and delight.
               </p>
               <div className="text-sm font-semibold tracking-[2px] text-gray-500">
                 HARVEY D. GEORGE
@@ -156,28 +154,32 @@ const About = () => {
 
         <div className="my-16">
           <p className="text-sm font-medium leading-7 text-gray-500 mb-5 md:text-base">
-            Faucibus etiam lacus sollicitudin sed amet, sit vitae lorem ornare
-            egestas nisi, diam cursus non mattis etiam sodales vestibulum arcu
-            a, aliquam at leo condimentum etiam dui eget arcu nunc, vivamus vel
-            facilisi auctor aliquet eu mollis accumsan fermentum ipsum ornare
-            viverra proin eleifend ultricies est, aliquet felis vivamus
-            praesent.
+            At KAYUU, we are dedicated to redefining the way you experience your
+            living spaces. With an unwavering focus on comfort, sustainability,
+            and timeless design, we strive to deliver furniture that enhances
+            your home and enriches your everyday life. Every piece is
+            thoughtfully crafted to balance form and function, ensuring it
+            becomes a cherished part of your story.
           </p>
           <div className="md:flex">
             <p className="text-gray-500 text-sm font-normal leading-6 mb-4 md:mb-0 md:w-1/2 md:mr-20 md:text-base lg:mr-60">
-              Sit ipsum elit nisl commodo cursus diam massa nunc, commodo amet,
-              viverra lobortis aliquam leo vitae in dictum sagittis, dui est
-              pellentesque non est nunc aliquet magna malesuada diam nunc quis
-              duis id nunc id ultrices cursus lorem consequat tincidunt
-              pharetra, risus quam facilisis lectus ipsum ut mattis pretium eros
-              tincidunt neque.
+              We combine elegance and practicality to create furniture that
+              seamlessly fits your lifestyle. Our designs are crafted with
+              precision, blending premium materials and timeless aesthetics to
+              ensure durability and style. Whether you seek to elevate your
+              living space or add functionality to your home, we are here to
+              make your vision a reality—bringing comfort, beauty, and quality
+              into every piece. Each creation is a testament to our passion for
+              transforming houses into homes you'll love.
             </p>
             <p className="text-gray-500 text-sm font-normal leading-6 md:w-1/2 md:text-base">
-              Aliquet magna malesuada diam nunc quis duis id nunc id ultrices
-              cursus lorem consequat tincidunt pharetra, risus quam facilisis
-              lectus ipsum ut mattis pretium eros tincidunt neque, faucibus
-              volutpat accumsan pretium arcu in donec et, rhoncus in sed
-              eleifend odio gravida vitae quam donec faucibus molestie bibendum.
+              We believe great furniture combines timeless design and enduring
+              quality to elevate your spaces. Each piece is crafted with
+              precision, balancing aesthetics and functionality, ensuring your
+              home reflects comfort, style, and personal expression. By merging
+              innovative design with exceptional craftsmanship, we create
+              furniture that adds warmth and character, transforming every
+              corner of your home into a space where cherished moments are made.
             </p>
           </div>
         </div>
@@ -191,10 +193,10 @@ const About = () => {
                 Furniture Store in Town
               </div>
               <p className="text-gray-500 text-sm font-normal leading-6 mb-5 lg:text-base">
-                Sagittis enim, auctor ultrices dui etiam viverra nulla
-                scelerisque in semper porttitor pharetra, tortor amet lorem
-                cursus velit posuere tristique tempus, tincidunt non velit quis
-                congue lectus a ullamcorper iaculis.
+                We provide exceptional quality furniture that stands the test of
+                time. From classic designs to modern trends, each piece is
+                crafted with precision to enhance your home with both beauty and
+                durability.
               </p>
               <div className="grid grid-cols-1">
                 <div className="mb-5">
@@ -207,7 +209,7 @@ const About = () => {
                         Huge Selection
                       </span>
                       <p className="text-sm text-gray-500 font-semibold leading-6 lg:text-base">
-                        Sagittis enim, auctor ultrices dui etiam viverra nulla.
+                        An extensive collection to match every taste and style.
                       </p>
                     </div>
                   </div>
@@ -222,8 +224,7 @@ const About = () => {
                         Low Price Everyday
                       </span>
                       <p className="text-sm text-gray-500 font-semibold leading-6 lg:text-base">
-                        Tincidunt sed eget nunc tellus viverra sapien massa
-                        cursus.
+                        Affordable luxury, every day without compromise.
                       </p>
                     </div>
                   </div>
@@ -238,8 +239,8 @@ const About = () => {
                         Same Day Delivery
                       </span>
                       <p className="text-sm text-gray-500 font-semibold leading-6 lg:text-base">
-                        Pretium, tempus ultricies lacus eleifend scelerisque
-                        sem.
+                        Get your furniture fast with our reliable same-day
+                        delivery service.
                       </p>
                     </div>
                   </div>

@@ -38,7 +38,7 @@ const Footer = () => {
               </button>
             </div>
             <div className="text-gray-500 text-sm">
-              Cras interdum lectus velit nibh senectus fringilla ut.
+              Stay updated with the latest trends and exclusive deals!
             </div>
           </div>
         </div>
@@ -81,7 +81,7 @@ const Footer = () => {
           <div className="flex mb-3 flex-col">
             <div className="mb-3.5 text-xl">Stay In Touch</div>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+              <li>Keep in touch for updates, insights, and exclusive offers!</li>
             </ul>
             <div className="flex mt-3.5 space-x-2 md:grid md:grid-cols-2 md:space-x-0 md:gap-2 lg:flex lg:space-x-2">
               <div className="border border-transparent bg-white/[0.1] p-2">
